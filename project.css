@@ -1,0 +1,139 @@
+.body{
+    margin: 0%;
+    padding: 0%;
+    background-color:#F6F1F1;
+}
+.hbd{
+    background-color:#F6F1F1;
+    height: 500px;
+    overflow-x: hidden;
+    width: 100%;
+}
+.p1{
+ height: 150px;
+width: 150px;
+margin-left:  75%; 
+margin-top: 25px;
+background-color:#F6F1F1 ;
+}
+.h1{
+    text-align: center;
+    font-size:xx-large;
+    font-family:cursive;
+    color: #120D31;
+}
+.h2{
+    text-align: center;
+    font-size:xx-large;
+    font-family:cursive;
+    color: #262A56;
+}
+.p2{
+    height: 150px;
+width: 150px;
+margin-left:  22%; 
+margin-top: 25px;
+background-color:#F6F1F1 ;
+}
+.hr{
+    border-top: 4px dotted black; 
+    width: 100%; 
+    margin: 0 auto;
+}
+.navbar{
+    background-color: #F6F1F1;
+    font-family:cursive;
+}
+.abt{
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* height: 500px; */
+    background-color: #FFEBEB;
+}
+td,th{
+    padding: 0.5rem;
+}
+.tb{
+    padding: 10px;
+    border-spacing: 30px;
+    /* text-align: center; */
+    /* margin: 25%; */
+    /* margin-left: 50%; */
+    width: 50%;
+    margin-top: 50px;
+     color: #262A56;
+     font-size: 16px;
+     font-family:cursive;
+}
+.button{
+    text-align: center;
+}
+button{
+    /* text-align: center; */
+    background-color: #5bc0be;
+    margin: 0px;
+    border-radius: 20%;
+}
+.ph{
+    color: #E3F4F4 ;
+    /* height: 500px; */
+    width: 100%;
+    padding: 1rem 0;
+}
+/* .ph1{
+    height: 200px;
+    width: 200px;
+} */
+
+.ph1{
+    height: 300px;
+}
+
+.images{
+    display:flex;
+    gap:1rem;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items: center;
+
+}
+
+@media only screen and (max-width:420px) {
+    .ph1{
+        height: auto;
+        width: 80%;
+    }
+    .tb{
+        margin-left: 100%;
+    }
+}
+.cr{
+    background-color: #FFEBEB;
+    
+}
+.vid{
+    display:flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 2rem 1rem;
+}
+.v{
+  
+    width:25%;
+}
+@media only screen and(max-width:420px) {
+    .v{
+        height:auto;
+        width:80%;
+
+    }
+    
+}
+h1::shadow{
+    cursor: pointer;
+}
